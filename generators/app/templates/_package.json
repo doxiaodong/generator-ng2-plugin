@@ -1,12 +1,12 @@
 {
   "name": "<%= appname %>",
-  "description": "",
+  "description": "<%= packageDescription %>",
   "repository": {
-    "type": "git",
-    "url": ""
+    "type": "<%= packageRepositoryType %>",
+    "url": "<%= packageRepositoryUrl %>"
   },
-  "version": "1.0.0",
-  "license": "MIT",
+  "version": "<%= packageVersion %>",
+  "license": "<%= packageLicense %>",
   "scripts": {
     "tslint": "tslint",
     "lint": "npm run tslint \"src/**/*.ts\" && npm run tslint \"server/**/*.ts\"",
