@@ -18,9 +18,10 @@ module.exports = class extends Generator {
     }
 
     this.props.appname = this.appname || path.basename(process.cwd())
+    this.props.appname = _.kebabCase(this.props.appname)
     this.props.modulename = this.modulename || utils.Camel2Pascal(
       utils.Hyphen2Camel(
-        _.kebabCase(this.props.appname)
+        this.props.appname
       )
     )
   }
