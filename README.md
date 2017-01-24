@@ -1,3 +1,7 @@
+[![Downloads](https://img.shields.io/npm/dt/generator-ng2-plugin.svg?style=flat-square)](https://www.npmjs.com/package/generator-ng2-plugin)
+[![Versions](https://img.shields.io/npm/v/generator-ng2-plugin.svg?style=flat-square)]()
+[![License](https://img.shields.io/npm/l/generator-ng2-plugin.svg?style=flat-square)]()
+
 # Simple plugin seed for angular2
 
 ## Install
