@@ -1,0 +1,55 @@
+module.exports = function copyServer() {
+  // app
+  this.fs.copyTpl(
+    this.templatePath('_server/_app/_component.ts'),
+    this.destinationPath('server/app/component.ts'),
+    this.props
+  )
+  this.fs.copyTpl(
+    this.templatePath('_server/_app/_index.ts'),
+    this.destinationPath('server/app/index.ts'),
+    this.props
+  )
+  this.fs.copyTpl(
+    this.templatePath('_server/_app/_module.ts'),
+    this.destinationPath('server/app/module.ts'),
+    this.props
+  )
+  this.fs.copyTpl(
+    this.templatePath('_server/_app/_style.css'),
+    this.destinationPath('server/app/style.css'),
+    this.props
+  )
+  this.fs.copyTpl(
+    this.templatePath('_server/_app/_template.html'),
+    this.destinationPath('server/app/template.html'),
+    this.props
+  )
+  // share
+  this.fs.copyTpl(
+    this.templatePath('_server/_share/_index.ts'),
+    this.destinationPath('server/share/index.ts'),
+    this.props
+  )
+  this.fs.copyTpl(
+    this.templatePath('_server/_share/_module.ts'),
+    this.destinationPath('server/share/module.ts'),
+    this.props
+  )
+  // others
+  this.fs.copyTpl(
+    this.templatePath('_server/_index.html'),
+    this.destinationPath('server/index.html'),
+    this.props
+  )
+  this.fs.copyTpl(
+    this.templatePath('_server/_index.ts'),
+    this.destinationPath('server/index.ts'),
+    this.props
+  )
+  this.fs.copyTpl(
+    this.templatePath('_server/_lib.ts'),
+    this.destinationPath('server/lib.ts'),
+    this.props
+  )
+}

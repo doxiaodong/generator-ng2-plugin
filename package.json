@@ -1,0 +1,34 @@
+{
+  "name": "generator-ng2-plugin",
+  "version": "1.0.0-beta.0",
+  "description": "Simple plugin seed for angular2",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/doxiaodong/generator-ng2-plugin.git"
+  },
+  "files": [
+    "generators"
+  ],
+  "keywords": [
+    "yeoman-generator",
+    "angular2",
+    "webpack",
+    "plugin",
+    "yeoman",
+    "generator"
+  ],
+  "author": "doxiaodong",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/doxiaodong/generator-ng2-plugin/issues"
+  },
+  "homepage": "https://github.com/doxiaodong/generator-ng2-plugin#readme",
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "yeoman-generator": "^1.0.1",
+    "yosay": "^1.2.1"
+  }
+}

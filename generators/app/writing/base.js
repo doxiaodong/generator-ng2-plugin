@@ -1,0 +1,35 @@
+// except _travis.yml/_package.json which in travis/package job
+module.exports = function copyBase() {
+  this.fs.copy(
+    this.templatePath('_gitignore'),
+    this.destinationPath('.gitignore')
+  )
+  this.fs.copy(
+    this.templatePath('_index.ts'),
+    this.destinationPath('index.ts')
+  )
+  this.fs.copy(
+    this.templatePath('_Makefile'),
+    this.destinationPath('Makefile')
+  )
+  this.fs.copy(
+    this.templatePath('_npmignore'),
+    this.destinationPath('.npmignore')
+  )
+  this.fs.copy(
+    this.templatePath('_README.md'),
+    this.destinationPath('README.md')
+  )
+  this.fs.copy(
+    this.templatePath('_tsconfig.json'),
+    this.destinationPath('tsconfig.json')
+  )
+  this.fs.copy(
+    this.templatePath('_tsfmt.json'),
+    this.destinationPath('tsfmt.json')
+  )
+  this.fs.copy(
+    this.templatePath('_tslint.json'),
+    this.destinationPath('tslint.json')
+  )
+}
