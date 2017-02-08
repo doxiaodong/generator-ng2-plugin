@@ -8,7 +8,7 @@
 * npm install -g generator-ng2-plugin
 
 ## Run
-* mkdir your-pproject && cd your-project
+* mkdir your-project && cd your-project
 * yo ng2-plugin
 
 ## Example
