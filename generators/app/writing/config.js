@@ -11,4 +11,9 @@ module.exports = function copyConfig() {
     this.templatePath('_config/_webpack.prod.js'),
     this.destinationPath('config/webpack.prod.js')
   )
+  this.fs.copyTpl(
+    this.templatePath('_config/_webpack.umd.js'),
+    this.destinationPath('config/webpack.umd.js'),
+    this.props
+  )
 }
