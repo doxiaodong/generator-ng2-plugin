@@ -1,6 +1,6 @@
 {
   "name": "generator-ng2-plugin",
-  "version": "1.0.0-beta.1",
+  "version": "1.0.0-rc.0",
   "description": "Simple plugin seed for angular2",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
